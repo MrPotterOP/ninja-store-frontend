@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ninja Store
 
-## Available Scripts
+Fullstack e-commerce website build using MERN stack. [VISIT](https://ninjastore.netlify.app/)
 
-In the project directory, you can run:
 
-### `npm start`
+## Built using
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+front end
+- [ReactJS](https://reactjs.org/) - Frontend framework
+- [Context API w/ hooks](https://reactjs.org/docs/context.html) - For state of user, toast notifs, theme etc.
+- [React Router Dom](https://reactrouter.com/) - For routing & navigation
+- [axios](https://axios-http.com/) - For fetching data from API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+back end
 
-### `npm test`
+- [NodeJS](https://nodejs.org/) - back-end JavaScript runtime environment
+- [Express](https://expressjs.com/) - back end web application framework
+- [NodeMailer](https://nodemailer.com/) - For sending emails from nodejs
+- [MongoDB](https://www.mongodb.com/) - Database to store document-based data
+- [Mongoose](https://mongoosejs.com/) - MongoDB object modeling for Node.js
+- [JSON Web Token](https://jwt.io/) - A standard to secure/authenticate HTTP requests
+- [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) - For hashing passwords
+- [Dotenv](https://www.npmjs.com/package/dotenv) - To load environment variables from a .env file
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- fully functional cart
+- Responsive UI for multiple screens
+- Sorting Feature for products
+- Alert messages for cart component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+![App Screenshot](https://i.ibb.co/WzYPNP4/image.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
