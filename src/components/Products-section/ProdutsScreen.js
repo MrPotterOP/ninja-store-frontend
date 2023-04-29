@@ -14,7 +14,7 @@ const ProductsScreen = ()=>{
     
     useEffect(()=>{
         const patchData = ()=>{
-        axios.patch("https://ninjastore-official.herokuapp.com/api/products", {filter:{key: "catagory", value: catState.active}}, {
+        axios.patch("https://ninjastore.cyclic.app/api/products", {filter:{key: "catagory", value: catState.active}}, {
             'content-type': 'application/Json'
         }).then(r=>{
             if(r){

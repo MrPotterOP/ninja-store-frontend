@@ -11,7 +11,7 @@ const Search = ()=>{
     const searchTerm = new URLSearchParams(search).get("term");
     
     useEffect(()=>{
-        axios.patch("https://ninjastore-official.herokuapp.com/api/search", {searchTerm}, {headers:{
+        axios.patch("https://ninjastore.cyclic.app/api/search", {searchTerm}, {headers:{
             "content-type": "application/Json"
         }}).then(r => {
             if(r){

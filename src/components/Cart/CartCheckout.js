@@ -8,7 +8,7 @@ const CartCheckout = ({data})=>{
 
     useEffect(()=>{
         setCart(data);
-            axios.patch('https://ninjastore-official.herokuapp.com/api/checkout', {cart, total: true}, {
+            axios.patch('https://ninjastore.cyclic.app/api/checkout', {cart, total: true}, {
             headers:{'content-type': 'application/json'}
         }).then((r)=> r ? setTotal(r.data.total) : null);
     }, [data, cart]);

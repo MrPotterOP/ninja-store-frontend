@@ -10,7 +10,7 @@ const Items = ()=>{
         if(cartState.cart.length !== 0){
             const ids = [];
             cartState.cart.forEach((i)=> ids.push(i.id));
-            axios.patch("https://ninjastore-official.herokuapp.com/api/items", {ids}, {
+            axios.patch("https://ninjastore.cyclic.app/api/items", {ids}, {
                 "content-type": "application/Json"
             }).then(r => r.data ? setData(r.data) : null)
             .catch(e => e.response ? console.log(e.response) : null);

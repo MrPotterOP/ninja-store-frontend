@@ -27,7 +27,7 @@ const Details = ()=>{
     };
 
     const handleCheckout = ()=>{
-        axios.post("https://ninjastore-official.herokuapp.com/api/fakepayment", {email: details.email}, 
+        axios.post("https://ninjastore.cyclic.app/api/fakepayment", {email: details.email}, 
         {headers:{"content-type": "application/Json"}}
         ).then(r => {
             if(r){

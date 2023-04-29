@@ -8,7 +8,7 @@ const OrderSummery = ()=>{
     const {cartState} = useContext(cartContext);
 
     useEffect(()=>{ 
-        axios.patch("https://ninjastore-official.herokuapp.com/api/checkout", {cart: cartState.cart, total: false}, 
+        axios.patch("https://ninjastore.cyclic.app/api/checkout", {cart: cartState.cart, total: false}, 
             {headers:{"content-type": "application/Json"}}
         ).then(r => r ? setData(r.data) : null)
         .catch(e => e.response ? console.log(e.response) : null);

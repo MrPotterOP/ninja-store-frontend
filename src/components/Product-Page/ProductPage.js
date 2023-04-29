@@ -14,7 +14,7 @@ const ProductPage = ()=> {
     const history = useHistory();
 
     useEffect(()=>{
-        axios.patch("https://ninjastore-official.herokuapp.com/api/details", {productID: id}, {headers:{
+        axios.patch("https://ninjastore.cyclic.app/api/details", {productID: id}, {headers:{
             "content-type": "application/Json"
         }}).then(r=> r ? setData(r.data) : null)
         .catch(e=> e.response ? setData({err: true}) : null);
